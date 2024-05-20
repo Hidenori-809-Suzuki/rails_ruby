@@ -13,3 +13,11 @@ end
 modified_text = text.gsub("ちは", "ちーーは")
 puts "置換後、#{modified_text}"
 
+# ヒアドキュメントを使用した複数行のテキスト
+message = <<~TEXT
+Good Morning
+Hello
+Good Night
+TEXT
+
+puts message
